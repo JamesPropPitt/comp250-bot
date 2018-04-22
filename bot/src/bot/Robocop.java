@@ -15,12 +15,12 @@ import rts.units.UnitTypeTable;
  *
  * @author santi
  */
-public class Elon extends AI {    
-    public Elon(UnitTypeTable utt) {
+public class Robocop extends AI {    
+    public Robocop(UnitTypeTable utt) {
     }
     
 
-    public Elon() {
+    public Robocop() {
     }
     
     
@@ -31,7 +31,7 @@ public class Elon extends AI {
     
     @Override
     public AI clone() {
-        return new Elon();
+        return new Robocop();
     }
    
     
