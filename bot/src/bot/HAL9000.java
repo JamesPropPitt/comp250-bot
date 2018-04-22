@@ -15,12 +15,12 @@ import rts.units.UnitTypeTable;
  *
  * @author santi
  */
-public class Robocop extends AI {    
-    public Robocop(UnitTypeTable utt) {
+public class HAL9000 extends AI {    
+    public HAL9000(UnitTypeTable utt) {
     }
     
 
-    public Robocop() {
+    public HAL9000() {
     }
     
     
@@ -31,7 +31,7 @@ public class Robocop extends AI {
     
     @Override
     public AI clone() {
-        return new Robocop();
+        return new HAL9000();
     }
    
     
