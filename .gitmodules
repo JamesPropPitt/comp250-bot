@@ -1,3 +1,6 @@
 [submodule "microrts"]
 	path = microrts
 	url = https://github.com/Falmouth-Games-Academy/comp250-microrts.git
+[submodule "comp250-microrts"]
+	path = comp250-microrts
+	url = https://github.com/Falmouth-Games-Academy/comp250-microrts.git
