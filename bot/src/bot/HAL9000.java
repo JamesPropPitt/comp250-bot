@@ -178,7 +178,7 @@ public void workersBehavior(List<Unit> workers,Player p, GameState gs) {
             AbstractAction aa = getAbstractAction(harvestWorker);
             if (aa instanceof Harvest) {
                 Harvest h_aa = (Harvest)aa;
-                if (h_aa.target != closestResource || h_aa.base!=closestBase) harvest(harvestWorker, closestResource, closestBase);
+                if (h_aa.getTarget() != closestResource || h_aa.getBase()!=closestBase) harvest(harvestWorker, closestResource, closestBase);
             } else {
                 harvest(harvestWorker, closestResource, closestBase);
             }
